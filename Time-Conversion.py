@@ -15,9 +15,18 @@ import sys
 # The function is expected to return a STRING.
 # The function accepts STRING s as parameter.
 #
+# 1) 12 AM -> 00
+# 2) 1AM to 12PM -> do nothing
+# 3) 1PM to 11PM -> take houe add 12
 
 def timeConversion(s):
     # 
+    timeState == s[-2:]
+    if timeState == 'PM' and s[:2] != '12':
+        s = str(12 + int(s[:2])) + s[2:]
+    if timeState == 'AM' and s[:2] = '12':
+        s = '00' + s[2:]
+    retturn s[:-2]
     
 
 if __name__ == '__main__':
