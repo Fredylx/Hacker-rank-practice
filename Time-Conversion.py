@@ -17,7 +17,7 @@ import sys
 #
 # 1) 12 AM -> 00
 # 2) 1AM to 12PM -> do nothing
-# 3) 1PM to 11PM -> take houe add 12
+# 3) 1PM to 11PM -> take hour and add 12
 
 def timeConversion(s):
     # 
