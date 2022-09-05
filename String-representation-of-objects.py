@@ -16,11 +16,11 @@ class ShoppingCart:
 		return price
 	def listCart(self):
 		cid = 0
-		print "Cart Items:"
+		print ("Cart Items:")
 		for x in self.items:
 			print x.name,x.price,cid
 			cid = cid+1
-		print ""
+		print ("")
 		
 class Item:
 	def __init__(self,price,name):
@@ -43,7 +43,7 @@ def CreateStore(storefile):
 		str1 = ""
 		str1 = fx.read()
 	except IOError:
-		print "No Existing Store... generating items"
+		print ("No Existing Store... generating items")
 		makeStoreItems(4)
 
 def listStore():
@@ -53,11 +53,11 @@ def listStore():
 		iid = iid + 1
 
 def printInstructions():
-	print "Type C to view your cart items"
-	print "Type R to item from your cart"
-	print "Type an item number to buy it"
-	print "Type P to get the total cart price" 
-	print "Type X to exit"
+	print ("Type C to view your cart items")
+	print ("Type R to item from your cart")
+	print ("Type an item number to buy it")
+	print ("Type P to get the total cart price" )
+	print ("Type X to exit")
 	
 def removeItem(cart):
 	input1 = input("Type a cart object ID to remove")
@@ -70,7 +70,7 @@ def handleInput(in_var, cart):
 	if(in_var == "R"):
 		removeItem(cart)
 	if(in_var == "P"):
-		print "The items in your cart currently cost"
+		print ("The items in your cart currently cost")
 		print cart.priceCart()
 	if(in_var == "X"):
 		global done
@@ -79,12 +79,12 @@ def handleInput(in_var, cart):
 		try:
 			cart.addToCart(store[int(in_var)])
 		except:
-			print "you have entered an illegal character!"
+			print ("you have entered an illegal character!")
 cart1 = ShoppingCart()
 CreateStore("cart1.cartfile")
 while(done == False):
 	listStore()
 	printInstructions()
-	input_var = raw_input("choose an item to buy(type the id)")
+	input_var = input("choose an item to buy(type the id)")
 	handleInput(input_var, cart1)
 	
