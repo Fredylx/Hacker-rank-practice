@@ -1,8 +1,7 @@
 """
 Title     : Ceaser Cipher
 Domain    : Python
-Author    : Ahmedu
-Created   : 06 July 2020
+Author    : Fredy
 Problem   : https://www.hackerrank.com/challenges/list-comprehensions/problem
 """
 
