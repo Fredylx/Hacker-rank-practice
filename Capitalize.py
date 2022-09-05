@@ -1,5 +1,5 @@
 """
-Title     : Ceaser Cipher
+Title     : Capitalize
 Domain    : Python
 Author    : Fredy
 """"
