@@ -2,7 +2,6 @@
 Title     : Ceaser Cipher
 Domain    : Python
 Author    : Fredy
-Problem   : https://www.hackerrank.com/challenges/list-comprehensions/problem
 """
 
 
