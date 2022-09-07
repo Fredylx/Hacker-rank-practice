@@ -1,6 +1,8 @@
-'''
-Creadted by Fredy
-'''
+"""
+Title     : Diagonal Difference
+Domain    : Python
+Author    : Fredy
+"""
 
 #!/bin/python3
 # Diagonal Difference
