@@ -1,5 +1,5 @@
 """
-Title     : Ceaser Cipher
+Title     : Find the Runner Up Score
 Domain    : Python
 Author    : Fredy
 """
