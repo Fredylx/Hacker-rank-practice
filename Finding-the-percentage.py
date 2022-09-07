@@ -1,3 +1,9 @@
+"""
+Title     : Finding the Percentage
+Domain    : Python
+Author    : Fredy
+"""
+
 dic={}
 l=[]
 
