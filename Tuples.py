@@ -1,4 +1,9 @@
-# uses pypy
+#  pypy
+"""
+Title     : Tuples
+Domain    : Python
+Author    : Fredy
+"""
 
 if __name__ == '__main__':
     n = int(input())
