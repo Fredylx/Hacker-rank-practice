@@ -1,3 +1,9 @@
+"""
+Title     : Write a Function
+Domain    : Python
+Author    : Fredy
+"""
+
 def is_leap(year):
   leap = False
   
