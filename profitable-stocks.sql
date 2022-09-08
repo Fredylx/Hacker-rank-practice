@@ -1,3 +1,9 @@
+"""
+Title     : Profitable Stocks
+Domain    : SQL
+Author    : Fredy
+"""
+
 SELECT a.stock_code
 FROM price_today a
 INNER JOIN price_tomorrow b
