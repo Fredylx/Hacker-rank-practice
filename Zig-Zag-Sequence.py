@@ -1,4 +1,9 @@
-#In this challenge, the task is to debug the existing code to successfully execute all provided test files.
+# In this challenge, the task is to debug the existing code to successfully execute all provided test files.
+'''
+Title     : Zig Zag
+Domain    : Python
+Author    : Fredy
+'''
 
 def findZigZagSequence(a, n):
     a.sort()
