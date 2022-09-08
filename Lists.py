@@ -1,3 +1,11 @@
+"""
+Title     : Lists
+Domain    : Python
+Author    : Fredy
+"""
+
+
+
 if __name__ == '__main__':
     N = int(input())
 
