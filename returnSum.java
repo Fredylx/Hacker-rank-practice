@@ -1,3 +1,9 @@
+"""
+Title     : Return Sum
+Domain    : Java
+Author    : Fredy
+"""
+
 String[] sNums = jTextField1.getText().replaceAll("[^1-9]", "").split("(?<!^)");
 int sum = 0;
 for (String s : sNums) {
