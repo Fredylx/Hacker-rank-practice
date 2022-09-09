@@ -1,3 +1,9 @@
+"""
+Title     : Maximize It
+Domain    : Python
+Author    : Fredy
+"""
+
 from itertools import product
 
 K,M = map(int,input().split())
