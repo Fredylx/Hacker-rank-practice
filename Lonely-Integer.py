@@ -1,3 +1,9 @@
+"""
+Title     : Lonely Integer
+Domain    : Python
+Author    : Fredy
+"""
+
 #!/bin/python3
 # Given an array of integers, where all elements but one occur twice, find the unique element.
 
