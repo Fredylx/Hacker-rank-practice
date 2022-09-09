@@ -1,3 +1,9 @@
+"""
+Title     : Average Function
+Domain    : Python
+Author    : Fredy
+"""
+
 #!/bin/python3
 
 import math
