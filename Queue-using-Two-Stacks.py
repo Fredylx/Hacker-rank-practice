@@ -1,3 +1,8 @@
+"""
+Title     : Queue using Two Stacks
+Domain    : Python
+Author    : Fredy
+"""
 
 # stackpush - 
 # stackdelete -
