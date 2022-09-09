@@ -1,3 +1,9 @@
+"""
+Title     : Merge two sorted linked lists
+Domain    : Python
+Author    : Fredy
+"""
+
 #!/bin/python3
 
 import math
