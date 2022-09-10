@@ -1,3 +1,9 @@
+"""
+Title     : Time Conversion
+Domain    : Python
+Author    : Fredy
+"""
+
 # Time Conversion
 #Given a time in -hour AM/PM format, convert it to military (24-hour) time.
 #
