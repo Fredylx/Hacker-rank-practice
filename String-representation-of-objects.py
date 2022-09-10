@@ -1,3 +1,9 @@
+"""
+Title     : String Representation of Objects
+Domain    : Python
+Author    : Fredy
+"""
+
 from random import randint
 
 done=False
