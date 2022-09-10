@@ -1,3 +1,9 @@
+"""
+Title     : Simple Text Editor
+Domain    : Python
+Author    : Fredy
+"""
+
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 stack = []
 string = ""
