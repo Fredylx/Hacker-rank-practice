@@ -1,3 +1,9 @@
+"""
+Title     : The Minion Game
+Domain    : Python
+Author    : Fredy
+"""
+
 def minion_game(string):
     # 
     vowels = 'AEIOU'
