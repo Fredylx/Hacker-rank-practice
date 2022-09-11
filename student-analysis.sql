@@ -1,8 +1,8 @@
-"""
+/*
 Title     : Student Analysis
 Domain    : SQL
 Author    : Fredy
-"""
+*/
 
 SELECT a.roll_number,a.name
 FROM student_information a
