@@ -1,8 +1,8 @@
-"""
+/*
 Title     : Profitable Stocks
 Domain    : SQL
 Author    : Fredy
-"""
+*/
 
 SELECT a.stock_code
 FROM price_today a
