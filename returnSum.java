@@ -2,6 +2,10 @@
 Title     : Return Sum
 Domain    : Java
 Author    : Fredy
+
+
+
+-------------------------------- Solution ---------------------------------------
 */
 
 String[] sNums = jTextField1.getText().replaceAll("[^1-9]", "").split("(?<!^)");
