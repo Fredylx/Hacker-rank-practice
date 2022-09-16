@@ -1,3 +1,8 @@
+/*
+Author:     Fredy H Lopez
+
+*/
+
 import { Component, OnInit } from "@angular/core";
 
 @Component({
