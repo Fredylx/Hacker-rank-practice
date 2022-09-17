@@ -1,5 +1,5 @@
 """
-Title     : Average Function
+Title     : Min Max Sum
 Domain    : Python
 Author    : Fredy
 """
