@@ -1,5 +1,14 @@
 #!/bin/python3
-
+'''
+Author:         Fredy Lopez
+Title:          Compare the Triplets
+----------------------------------------- Solution ---------------------------------------------
+create r
+set r as a list
+[a,b]
+for aa, bb in zip(a,b)
+add to r[0] or r[1]
+'''
 import math
 import os
 import random
