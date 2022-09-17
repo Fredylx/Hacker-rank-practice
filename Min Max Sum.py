@@ -44,8 +44,20 @@ def miniMaxSum(arr):
     print(s-maxnum, s-minnum)
     
 #    print(sum(arr)-max(arr), sum(arr)-min(arr))
-        
-
+'''
+better/easier solution
+def miniMaxSum(arr):
+    # Write your code here
+    arr = sorted(arr)
+    minSum = 0
+    maxSum = 0
+    for i in range(len(arr)-1):
+        minSum += arr[i]
+    for i in range(1, len(arr)):
+        maxSum += arr[i]
+    print(minSum , end=' ')
+    print(maxSum)
+'''
 if __name__ == '__main__':
 
     arr = list(map(int, input().rstrip().split()))
