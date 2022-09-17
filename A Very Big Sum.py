@@ -1,3 +1,10 @@
+'''
+Author:         Fredy Lopez
+Title:          A Very Big Sum
+--------------------------------------- Solution -------------------------------------------
+sum of very big list could be just made with one simple line
+return (sum(ar))
+'''
 #!/bin/python3
 
 import math
@@ -15,6 +22,10 @@ import sys
 
 def aVeryBigSum(ar):
     # Write your code here
+    '''
+                   \just
+    return (sum(ar))
+    '''
     sum = 0
     for i in ar:
         sum = sum + i
