@@ -1,15 +1,4 @@
-"""
-Title     : Min Max Sum
-Domain    : Python
-Author    : Fredy
-"""
-
 #!/bin/python3
-#Mini-Max Sum
-#Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
-
-
-
 
 import math
 import os
@@ -22,42 +11,34 @@ import sys
 #
 # The function accepts INTEGER_ARRAY arr as parameter.
 #
-#Min sum , find the lowest four add them
-#Max sum , find the largest four add them
-#minus both
-#    min = []
-#    max = []
-    
-#    for n in i:
 
 def miniMaxSum(arr):
-    # 
-
-    s = 0
-    minnum = 999999999
-    maxnum = 0
+    # Write your code here
+    s = 0   #sum
+    maximun = 99999999
+    minnimum = 0
     n = len(arr)
     for i in range(n):
         s += arr[i]
-        minnum = min(minnum, arr[i])
-        maxnum = max(maxnum, arr[i])
-    print(s-maxnum, s-minnum)
+        minnimum = min(minnimum, arr[i])
+        maximun = max(maximun, arr[i])
+        
+    print(s-minnimum, s-maximun)
+    '''
+    min = []
+    max = []
     
-#    print(sum(arr)-max(arr), sum(arr)-min(arr))
-'''
-better/easier solution
-def miniMaxSum(arr):
-    # Write your code here
-    arr = sorted(arr)
-    minSum = 0
-    maxSum = 0
-    for i in range(len(arr)-1):
-        minSum += arr[i]
-    for i in range(1, len(arr)):
-        maxSum += arr[i]
-    print(minSum , end=' ')
-    print(maxSum)
-'''
+    for i in range(0, len(arr)):
+        # logic
+        if a > max:
+            max = a
+        elif a < min:
+            min = a
+        
+    print(min)
+    print(max)
+    '''
+
 if __name__ == '__main__':
 
     arr = list(map(int, input().rstrip().split()))
