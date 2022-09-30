@@ -24,20 +24,20 @@ import sys
 # if num = 0: += zero
 
 def plusMinus(arr):
-    # pos = ne
-    pos = neg = zero = 0 
-    for i in range(n):
-        if arr[i] > 0:
+    pos = neg = zero = 0
+    length = len(arr)
+    for i in range(0, len(arr)):
+        if arr[i] == 0:
+            zero += 1
+        elif arr[i] > 0:
             pos += 1
         elif arr[i] < 0:
-            neg += 1
-        else: 
-            zero += 1
-        
-    print (pos/n)
-    print (neg/n)
-    print (zero/n)
+            neg +=1
     
+    
+    print("{:.6f}".format(float(pos/length)))
+    print("{:.6f}".format(float(neg/length)))
+    print("{:.6f}".format(float(zero/length)))  
 
 if __name__ == '__main__':
     n = int(input().strip())
