@@ -14,30 +14,13 @@ import sys
 
 def miniMaxSum(arr):
     # Write your code here
-    s = 0   #sum
-    maximun = 99999999
-    minnimum = 0
-    n = len(arr)
-    for i in range(n):
-        s += arr[i]
-        minnimum = min(minnimum, arr[i])
-        maximun = max(maximun, arr[i])
-        
-    print(s-minnimum, s-maximun)
-    '''
-    min = []
-    max = []
+    arr.sort()
+    s = sum(arr)
+    maxResult = s - arr[0]
+    minResult = s - arr[len(arr) - 1]
     
-    for i in range(0, len(arr)):
-        # logic
-        if a > max:
-            max = a
-        elif a < min:
-            min = a
-        
-    print(min)
-    print(max)
-    '''
+    print(minResult, maxResult)
+
 
 if __name__ == '__main__':
 
