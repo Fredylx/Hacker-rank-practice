@@ -2,6 +2,8 @@
 Title     : String Representation of Objects
 Domain    : Python
 Author    : Fredy
+
+---------- Not the same os the original String representation of objects.py file ------------
 """
 
 from random import randint
