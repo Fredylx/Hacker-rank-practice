@@ -7,7 +7,7 @@ Author    : Fredy
 #!/bin/python3
 # Diagonal Difference
 # Given a square matrix, calculate the absolute difference between the sums of its diagonals.
-
+# Practiced 11/29/2022
 
 
 import math
